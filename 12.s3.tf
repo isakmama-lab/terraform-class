@@ -1,1 +1,7 @@
-# git-hub 연동되면 자동 추가됨
+resource "aws_s3_bucket" "ldcc-as-demo" {
+  bucket = "ldcc-as-demo"
+
+}
+
+
+
